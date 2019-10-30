@@ -1,0 +1,30 @@
+{
+  "name": "node.ts",
+  "version": "1.0.0",
+  "description": "Node with TypeScript",
+  "main": "app.ts",
+  "scripts": {
+    "test": "yarn jest",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajays97/node.ts.git"
+  },
+  "keywords": [
+    "\"node",
+    "typescript\""
+  ],
+  "author": "Ajay Srinivas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajays97/node.ts/issues"
+  },
+  "homepage": "https://github.com/ajays97/node.ts#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.43",
+    "typescript": "^3.6.4"
+  }
+}
